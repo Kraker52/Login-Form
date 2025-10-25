@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         if (showPassAlert) {
             passAlert.style.opacity = "1";
+            passAlert.style.zIndex = "3"
             setTimeout(() => (passAlert.style.opacity = "0"), 3000);
         }
     });
