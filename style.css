@@ -117,9 +117,10 @@ body {
     cursor: pointer;
     text-decoration: none;
     display: block;
+    z-index: 2;
 }
 
-.forgot:hover {
+.Link:hover {
     text-decoration: underline;
 }
 
